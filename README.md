@@ -57,7 +57,7 @@ El texto del vínculo entre corchetes [] y el link entre paréntesis
 
 > [mi gitHub](https://github.com/JuanJoseSenit?tab=repositories)
 
-Si lo que quieres es mostrar el link directamente se situa entre <>
+Si lo que quieres es mostrar el link directamente se sitúa entre <>
 
 > <https://github.com/JuanJoseSenit?tab=repositories>
 
@@ -71,11 +71,27 @@ Sigue una nomenclatura muy similar a los enlaces, sólo que se debe incluir el s
 Lo que va entre corchetes es el mensaje en caso de que la carga de la imagen falle
 
 ___
+## TABLAS
+Para elaborar una tabla:
+
+1. Se emplean \| para separar las columnas y salto de linea para adicionar filas
+2. La primera fila es la cabecera, la segunda fila tiene una estructura como:
+ | - | - | - | donde en número de guiones son el número de columnas de la tabla y a partir de la tercera fila son los campos de la tabla
+
+| Proyecto | GitHub |
+| - | - |
+| Cuatro en raya | <https://github.com/JuanJoseSenit/CuatroEnRaya> |
+| Landing page | <https://github.com/JuanJoseSenit/Landing-Page-Js> |
+
+
+___
 ## ANULAR MARKDOWN
 Si quieres usar los símbolos sin que Markdown los interprete basta con emplear \
 > *cursiva*
 
 > \*anulo la cursiva usando \ \*
+
+
 
 
 
